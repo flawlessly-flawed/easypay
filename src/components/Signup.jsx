@@ -1,9 +1,30 @@
-import React from 'react'
+import React, { useState } from 'react';
+import google from '../assets/Icon.png'
+import face from '../assets/face.png'
+import apple from '../assets/apple.png'
 
 const Signup = () => {
+
+    const socials = [
+        {
+            id:1,
+            src: google,
+            style:"rounded-full w-96 h-96"
+        },
+        {
+            id:2,
+            src: face
+        },
+        {
+            id:1,
+            src: apple
+        }
+    ];
   return (
-    <div className='bg-[#1C1C1C] p-20'>
-        <div>
+
+   
+    <div className='bg-[#1C1C1C] flex justify-center p-20 '>
+        <div className='rounded-lg border-2 border-[#262626] p-12 w-fit'>
             <div className='flex flex-col items-center justify-between gap-8'>
                 <h1 class='font-Lexend font-medium text-5xl text-orange '>Sign Up</h1>
                 <p class="font-Lexend text-[#BFBFBF]">Join our Community today!
@@ -42,6 +63,20 @@ const Signup = () => {
                         <p className='text-[#B3B3B3]'>Or Continue with</p>
                         <hr  className=' w-48 border-1 bg-[#B3B3B3] m-3'/>
                     </div>
+                </div>
+                <div className='flex items-center justify-center'>
+                <div className=' flex items-center justify-between w-48'>
+               
+               { socials.map(({id,src}) => (
+                <div key={id}>
+                    <img src={src} alt="" />
+                </div>
+               
+
+                ))}
+                
+              
+                </div>
                 </div>
                 </div>
 

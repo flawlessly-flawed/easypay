@@ -28,7 +28,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='bg-[#1C1C1C] py-6 px-4 overflow-hidden '>
+    <div className='bg-[#1C1C1C] py-6 px-4 '>
       <div className='m-auto max-w-screen-xl'> 
         <div className="bg-zinc-900 px-10 rounded-full mx-auto flex flex-row justify-between items-center overflow-hidden h-20">
           <div style={{ width: '137.88px', height: '75.26px' }}>
