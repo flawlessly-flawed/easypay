@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import google from '../assets/Icon.png'
 import face from '../assets/face.png'
 import apple from '../assets/apple.png'
