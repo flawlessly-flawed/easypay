@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className='bg-[#1C1C1C]'>
+    <div className='bg-[#1C1C1C] overflow-hidden'>
     <Navbar/>
     <Signup/>
     <Testimonials/>
