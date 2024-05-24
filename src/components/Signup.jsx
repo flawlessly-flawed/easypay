@@ -63,7 +63,7 @@ const Signup = () => {
             />
           </div>
 
-          <div className="md:p-5 p-0">
+          <div className="md:p-5 p-2">
             <div className="flex flex-col justify-between gap-5 items-center">
               <button
                 className="rounded-full border-1 border-[#262626] md:w-96 w-72 p-4
